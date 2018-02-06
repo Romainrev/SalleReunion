@@ -12,6 +12,6 @@ if(isset($_POST['Reserver'])){
         $requete="INSERT INTO `t_reservation` (`id_RESERVATION`, `DATE`,`T_SALLE_id_SALLE`, `Duree`) VALUES (NULL, '$date','$salle','$duree') ";
 
         $result=$db->query($requete);
-    }
+    } 
 
 }
