@@ -5,6 +5,7 @@ if(isset($_POST['Reserver'])){
     $date=$_POST['date'];
     $salle=$_POST['Salle'];
     $duree=$_POST['durée'];
+
     if($salle==0 || $duree==0 || $date==0){
         echo("Veuillez renseigner les informations manquantes");
 
